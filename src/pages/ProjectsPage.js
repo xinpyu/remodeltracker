@@ -14,7 +14,7 @@ function ProjectsPage({ projects, editingProject, setEditingProject, saveProject
     return (
         <div className="container py-4">
             <header className="mb-4 text-center">
-                <h1>Remodeling Cost Tracker</h1>
+                <h1>Welcome to TrackReno: Your Renovation Budget Dashboard</h1>
             </header>
 
             <div className="row">

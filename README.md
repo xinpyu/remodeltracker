@@ -1,6 +1,8 @@
-# Remodeling Cost Tracker
+# TrackReno
 
-A comprehensive web application for tracking remodeling project costs. This app allows users to create and manage multiple remodeling projects and track budget vs. actual spending at both the project and task level.
+A comprehensive web application for tracking renovation budget and costs. TrackReno allows users to create and manage multiple remodeling projects and track budget vs. actual spending at both the project and task level.
+
+Visit [https://trackreno.com](https://trackreno.com) to use the application.
 
 ## Features
 
@@ -23,11 +25,13 @@ A comprehensive web application for tracking remodeling project costs. This app 
   - Color-coded indicators for remaining budget
   - Summary statistics for both projects and items
 
-- **Data Persistence**
-  - All data persists in browser localStorage
+- **Data Backup & Privacy**
+  - All data persists in browser localStorage for privacy
+  - Export/import data in CSV format for backup
   - No account required - single user experience
+  - No server-side data storage - your data stays on your device
 
-## Installation and Setup
+## Development
 
 1. Clone this repository
 2. Install dependencies:
@@ -63,4 +67,8 @@ A comprehensive web application for tracking remodeling project costs. This app 
 - Chart.js for data visualization
 - Bootstrap 5
 - LocalStorage for data persistence
-- Parcel for bundling 
+- Parcel for bundling
+
+## Privacy & Security
+
+TrackReno is designed with privacy in mind. All your project data is stored locally in your browser and never sent to any server. You can export your data anytime for backup purposes. 
