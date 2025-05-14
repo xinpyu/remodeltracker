@@ -1,0 +1,23 @@
+{
+    "name": "remodel-cost-tracker",
+    "version": "1.0.0",
+    "description": "Remodeling Cost Tracker Web App",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.2",
+        "chart.js": "^4.4.9",
+        "react": "^18.2.0",
+        "react-chartjs-2": "^5.3.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.14.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.22.5",
+        "@babel/preset-env": "^7.22.5",
+        "@babel/preset-react": "^7.22.5",
+        "parcel": "^2.9.3"
+    }
+}

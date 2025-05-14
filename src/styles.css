@@ -1,0 +1,180 @@
+/* Custom styles for Remodeling Cost Tracker */
+
+:root {
+    --primary-color: #0d6efd;
+    --danger-color: #dc3545;
+    --success-color: #198754;
+    --warning-color: #ffc107;
+    --light-bg: #f8f9fa;
+    --dark-text: #212529;
+    --gray-text: #6c757d;
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    letter-spacing: -0.3px;
+}
+
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    border: none;
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.list-group-item {
+    transition: background-color 0.2s ease;
+    border-left: none;
+    border-right: none;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 0, 0, 0.015);
+}
+
+.badge {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0.4em 0.8em;
+}
+
+/* Custom badge styling for cost types */
+.badge-type {
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.bg-info {
+    background-color: #0dcaf0 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+    color: #212529;
+}
+
+.bg-success {
+    background-color: #20c997 !important;
+}
+
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--dark-text);
+    margin-bottom: 0.375rem;
+    font-size: 0.9rem;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0.375rem;
+    padding: 0.5rem 0.875rem;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    border: 1px solid #dee2e6;
+}
+
+.form-select {
+    background-position: right 0.875rem center;
+    cursor: pointer;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+    border-color: #86b7fe;
+}
+
+.progress {
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.text-muted {
+    color: var(--gray-text) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .row>div {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
